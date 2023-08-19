@@ -1,0 +1,289 @@
+html {
+  max-width: 720px;
+}
+
+ /* :root {
+  background: plum;
+} */
+
+body {
+  background: #fff;
+}
+
+/* * {
+  color:chartreuse;
+} */
+
+h1 {
+  color:darkgreen;
+}
+
+.box {
+  background: blue;
+}
+
+#user {
+  color:aqua;
+}
+
+h1, .box, #user {
+  color:darkred;
+}
+
+div>h3 {
+  color:aqua;
+}
+
+section h1, section h3{
+  color:black;
+}
+
+h1 + h3 {
+  color:darkslategray;
+}
+
+h1 ~ h3 {
+  background: chartreuse;
+} 
+
+
+
+
+
+  .cart-dark {
+  background: azure;
+}
+
+.item {
+  color:rgb(60, 19, 227);
+}
+
+.item:first-child {
+  color:rgb(57, 2, 13);
+}
+
+.item:last-child {
+  color:rgb(57, 2, 13);
+}
+
+.tesst {
+  background: deeppink;
+}
+
+.test:only-child {
+  color:rgb(14, 211, 34);
+}
+
+.vv {
+  background: black;
+}
+
+.v:first-of-type {
+  color:chartreuse;
+}
+
+.v:last-of-type {
+  color:rgb(228, 18, 126);
+}
+
+.zz {
+  background: crimson;
+}
+
+.z:only-of-type {
+  color:blue;
+}
+
+.ww {
+  background: rgb(169, 166, 178);
+}
+
+.w:nth-child(3) {
+  color:rgb(106, 8, 21);
+}
+
+.w:nth-last-child(3) {
+  color:rgb(24, 12, 200);
+}
+
+.w:nth-of-type(2n) {
+  color:rgb(242, 133, 9);
+}
+
+.w:nth-last-of-type(2n) {
+  color:rgb(48, 27, 3);
+}
+
+.tt {
+  background: dodgerblue;
+}
+
+p:not(.t)  {
+  color:rgb(186, 12, 58);
+} 
+
+p:empty {
+  height: 10px;
+  background:aqua;
+} 
+
+
+
+
+.card-darkk {
+  background: rgb(216, 210, 215);
+}
+
+.a[required] {
+  background: rgb(214, 15, 138);
+}
+
+.a[type='number'] {
+  background: rgb(25, 8, 186);
+}
+
+.q[alt~=small] {
+  height: 300;
+}
+
+.q[rel|="rr"] {
+  background: brown;
+}
+
+.q[rel^="cool"] {
+  background: blueviolet;
+}
+
+.q[rel*="rrrr"] {
+  background:rgb(214, 15, 138);
+}
+
+.q[rel*="vvv"] {
+  background:rgb(201, 227, 2);
+}
+
+.card-blue {
+  background: grey;
+}
+
+.b::first-letter {
+  color:darkorange;
+}
+
+.card-title
+{
+  background: grey;
+}
+
+.g::first-line {
+ color: brown;
+}
+
+.gg::placeholder {
+  color: aqua;
+}
+
+.g::before {
+  content: "<";
+  color:black;
+}
+
+.g::after{
+  content: ">";
+  color:black;
+}
+
+
+
+.card-1 {
+  background: rgb(236, 222, 222);
+}
+
+#test:target {
+  color: blueviolet;
+}
+
+.link:link {
+  color: rgb(245, 10, 214);
+}
+
+.link:visited {
+  color: rgb(214, 71, 5);
+}
+
+#test:hover {
+  color: rgb(9, 165, 45);
+}
+
+.link:active {
+  color: rgb(7, 132, 26);
+}
+
+input {
+  background-color: rgb(137, 138, 141);
+}
+
+input:focus {
+  background-color: rgb(54, 212, 10);
+}
+
+.card-2:focus-within {
+  background-color: crimson;
+}
+
+p:lang(en) >span::after {
+  content: '(en)';
+  background-color: chartreuse;
+}
+
+p:lang(fr) {
+  background-color: blue;
+}
+
+button {
+  background-color: antiquewhite;
+}
+
+button:enabled {
+  background-color: deeppink;
+}
+
+button:disabled {
+  background-color: rgb(11, 141, 143);
+}
+
+.inp:read-write {
+  background-color: blueviolet;
+}
+
+.inp:read-only {
+  background-color: rgb(120, 4, 101);
+}
+
+input[type='checkbox']:checked ~ span {
+  background: rgb(226, 4, 15);
+}
+
+.valid:valid {
+  background: darkcyan;
+}
+
+.valide:invalid {
+  background: rgb(3, 54, 108);
+}
+
+.valide:optional {
+  background: rgb(43, 150, 1);
+}
+
+.valit:out-of-range {
+  background: rgb(123, 97, 97);
+}
+
+.valit:in-range {
+  background: rgb(125, 81, 81);
+}
+
+.valiv:placeholder-showne ~ span {
+  background: rgb(1, 81, 27);
+}

@@ -1,7 +1,44 @@
-html {
-  max-width: 720px;
+.card {
+  color: rgb(125, 5, 79);
 }
 
-body {
-  background: #fff;
+.card > p {
+  color: rgb(4, 90, 24);
+  -webkit-text-fill-color: rgb(178, 7, 7);
+  -webkit-text-stroke: 2px blue;
+}
+
+p:hover {
+  direction:rtl;
+}
+
+#test {
+  color: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-stroke: unset;
+  /* writing-mode: vertical-lr; */
+  text-align: center;
+  text-transform: uppercase;
+  tab-size: 3px;
+  letter-spacing: 3px;
+  text-decoration: underline wavy red;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+
+.q div {
+  display: inline;
+  background: deeppink;
+  margin: 1%;
+  padding: 1%;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+
 }
