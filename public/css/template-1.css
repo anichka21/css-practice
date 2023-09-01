@@ -8,6 +8,7 @@
 }
 .header {
  padding: 24px;
+ border-bottom: 1px solid #dee2e6;
 }
 .logo {
   font-size: 17px;
@@ -47,6 +48,7 @@
 }
 .footer {
   padding: 24px 0;
+  border-top: 1px solid #dee2e6;
 }
 .footer_copyright {
   font-size: 14px;
@@ -68,7 +70,7 @@
   text-align: center;
 }
 .hero_text {
-  font-size: 20px;
+  font-size: 40px;
   color: #212529;
   text-align: center;
   max-width: 585px;
@@ -113,4 +115,62 @@
   width: 100%;
   font-size: 19px;
   padding: 9px;
+}
+.card {
+  border: 2px solid rgb(0, 0, 0);
+}
+.card:hover {
+ outline: 2px solid blue;
+ outline-offset: 5px;
+ border-radius: 8%;
+ text-shadow: 2px 2px 2px black;
+ box-shadow: 5px 5px 10px 0px blue;
+ line-height: 2;
+ vertical-align: text-top;
+ cursor: pointer;
+}
+.plans_card:nth-child(2) > .card {
+  visibility: hidden;
+}
+/* p { 
+ background: gray;
+ width: 200px;
+ height: 100px;
+ overflow: scroll;
+ text-overflow: ellipsis;
+ white-space: normal;
+ overflow-wrap: break-word;
+ word-break: break-all;
+ hyphens: auto;
+ white-space: normal;
+ overflow: auto;
+ resize: both;
+} */
+/* body {
+  background-image: url('/img/test.png');
+  background-repeat: round;
+} */
+/* .page {
+  background-color: transparent;
+  background-image: url('/img/test2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; 
+} */
+.hero_text {
+  /* background-image: url('/img/test2.png');
+  background-attachment: fixed;
+  background-position: center; */
+  /* background-image: url('/img/test2.png'); */
+  /* border: 20px solid transparent; */
+  padding: 40px;
+  color: #dedede;
+  /* background-clip: content-box; */
+  /* background-origin: border-box; */
+  border-image-source: url('/img/test2.png');
+  border-image-width: 35%;
+  border-image-slice: 900;
+  border-image-repeat: stretch;
+  border-image-outset: 10px;
 }
