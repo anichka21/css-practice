@@ -20,6 +20,18 @@
 </main>
 {{/with}}
 
+<div class="featured">
+{{#each featured}}
+{{> cardFeatured data=this}}
+{{/each}}
+</div>
+
+<div class="actions">
+ {{#each actions}}
+  {{> cardActions data=this}}
+ {{/each}}
+</div>
+
 <footer class="footer">
     <div>
         {{> logo}}
