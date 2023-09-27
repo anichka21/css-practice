@@ -40,16 +40,25 @@
         <p class="form_info">{{info}}</p>
     </div>
     {{/with}}
-</main>
+    
+    {{#each advantages}}
+    <div class="advantage">
+        <strong>{{title}}</strong>
+        <p>{{text}}</p>
+    </div>
+    {{/each}}
 
-<div class="advantages">
+</main>
+ 
+ <div class="advantages">
     {{#each advantages}}
     <div>
         <strong>{{title}}</strong>
         <p>{{text}}</p>
     </div>
     {{/each}}
-</div>
+ </div>
+
 
 <footer class="footer" id="test">
     <div>
